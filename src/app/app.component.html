@@ -1,0 +1,27 @@
+<div class="header">
+ <div class="header-white-base">
+    <div class="header-class">
+      <h1>Giriş Yap</h1>
+    </div>
+ </div>
+</div>
+<div class="login-container">
+    <mat-card style="background-color: white; padding: 30px; height: 500px; position: absolute; top: 31.2%; left: 32%; width: 33.5%;">
+      <mat-card-content>
+        <form>       
+          <mat-form-field class="form-group">
+            <mat-label for="email">E-posta:</mat-label>
+            <input matInput type="email" id="email" name="email"#email required>
+          </mat-form-field>
+
+          <mat-form-field class="form-group">
+            <mat-label for="password">Şifre:</mat-label>
+            <input matInput type="password" id="password" name="password"#password required>
+          </mat-form-field>
+
+          <button mat-button class="btn-login" type="submit" color="primary" (click)="authService.SignIn(email.value, password.value)">Giriş Yap</button>
+          <button mat-button class="btn-sign" type="button" color="primary" [routerLink]="['/signUp']" routerLinkActive="active">Kayıt Ol</button>
+        </form>
+      </mat-card-content>
+    </mat-card>
+</div>
