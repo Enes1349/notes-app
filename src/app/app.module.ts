@@ -11,26 +11,34 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
-import { signInComponent } from './sign-in/sign.component';
+import { signInComponent } from './sign-in/signIn.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
+import { NoteComponent } from './notes/note.component';
+import { MatIconModule } from '@angular/material/icon';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    signInComponent
+    signInComponent,
+    LoginComponent,
+    NoteComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FirestoreModule,
     AuthModule,
-    AngularFireModule.initializeApp(environment),
+    AngularFireModule.initializeApp(environment.firebase),
     BrowserAnimationsModule,
     MatInputModule,
     MatCardModule,
     MatFormFieldModule,
     MatButtonModule,
+    FormsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,87 @@
+.note-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+    .login-card {
+      width: 550px;
+      background-color: #f0f0f0 !important;
+    }
+  
+    .form-group {
+      width: 100%;
+      margin-top: 16px;
+    }
+  
+    button {
+      width: 90%;
+      position: absolute;
+      left: 29px;
+      top: 92%;
+    }
+  
+    .register-link {
+      text-align: center;
+      margin-top: 16px;
+  
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+    }
+  }
+  
+    .header {
+      width: 100%;
+      height: 300px;
+      background-color: #3f51b5;
+    }
+
+    .header-class {
+      background-color: #27389c;
+      display: flex;
+      align-items: center;
+      padding: 0 30px;
+      color: #f2f2f2;
+      position: absolute;
+      width: 540px;
+      height: 184px;
+      top: 0%;
+      left: 0%;
+      border-radius: 10px 10px 0 0;
+    }
+    
+    .btn-logout {
+      width: 18% !important;
+      position: absolute !important;
+      top: 33% !important;
+      height: 28% !important;
+      left: 75% !important;
+      border-radius: 5px !important;
+    }
+
+    .note-header {
+      position: absolute;
+      top: 20px;
+      left: 30px;
+    }
+    .note-content {
+      position: absolute;
+      top: 60px;
+      left: 27px;
+    }
+
+    .delete-icon {
+      position: absolute !important;
+      top: 27px !important;
+      left: 230px !important;
+      margin: 0 0 0 40px;
+    }
+
+    .edit-icon {
+      position: absolute !important;
+      top: 27px !important;
+      left: 230px !important;
+    }
+  

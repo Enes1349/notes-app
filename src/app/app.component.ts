@@ -8,9 +8,6 @@ import { AuthService } from './shared/services/auth.service';
 })
 export class AppComponent {
   title = 'notes-app';
-  email: string = '';
-  password: string = '';
-  authService: any;
 
   constructor(private auth: AuthService) {}
   ngOnInit() { }

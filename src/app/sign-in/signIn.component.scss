@@ -1,0 +1,62 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+  .login-card {
+    width: 550px;
+    background-color: #f0f0f0 !important;
+  }
+
+  .form-group {
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .register-link {
+    text-align: center;
+    margin-top: 16px;
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+  }
+}
+
+  .header {
+    width: 100%;
+    height: 300px;
+    background-color: #3f51b5;
+  }
+  .header-class {
+    background-color: #27389c;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    color: #f2f2f2;
+    position: absolute;
+    width: 441px;
+    height: 184px;
+    top: 0%;
+    left: 0%;
+    border-radius: 10px 10px 0 0;
+  }
+  .btn-login {
+    position: relative;
+    top: 47.5%;
+  }
+  .btn-sign {
+    position: relative;
+    top: 47.5%;
+  }
+  .form-content {
+    position: relative;
+    top: 32%;
+  }

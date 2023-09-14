@@ -1,0 +1,24 @@
+<div class="header"></div>
+<div class="login-container">
+    <mat-card style="background-color: white; padding: 30px; height: 765px; position: absolute; top: 12%; left: 34%; width: 500px; border-radius: 10px 10px 0 0;">
+      <div class="header-class">
+        <h1>Giriş Yap</h1>
+      </div>
+      <mat-card-content>
+        <form class="form-content">       
+          <mat-form-field class="form-group">
+            <mat-label for="email">E-posta:</mat-label>
+            <input matInput="" type="email" name="email" [(ngModel)]="email" required="">
+          </mat-form-field>
+
+          <mat-form-field class="form-group">
+            <mat-label for="password">Şifre:</mat-label>
+            <input matInput="" type="password" name="password" [(ngModel)]="password" required="">
+          </mat-form-field>
+        </form>
+        <button mat-raised-button class="btn-login" type="submit" color="primary" (click)="login()">Giriş Yap</button>
+        <button mat-button class="btn-sign" type="button" color="primary" [routerLink]="['/signIn']" routerLinkActive="active">Kayıt Ol</button>
+      </mat-card-content>
+    </mat-card>
+</div>
+   
